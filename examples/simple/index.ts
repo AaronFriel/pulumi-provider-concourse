@@ -1,4 +1,4 @@
-import * as concourse from "@pulumiverse/concourse";
+import * as concourse from "@aaronfriel/concourse";
 
 const random = new concourse.Random("my-random", { length: 24 });
 

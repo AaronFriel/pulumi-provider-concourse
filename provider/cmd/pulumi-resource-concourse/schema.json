@@ -8,10 +8,10 @@
         "category/ci",
         "kind/native"
     ],
-    "homepage": "https://github.com/pulumiverse",
+    "homepage": "https://github.com/aaronfriel",
     "license": "Apache-2.0",
-    "repository": "https://github.com/pulumiverse/pulumi-concourse",
-    "publisher": "Pulumiverse",
+    "repository": "https://github.com/aaronfriel/pulumi-concourse",
+    "publisher": "Aaronfriel",
     "types": {
         "concourse:index:Info": {
             "description": "Server Information",
@@ -140,20 +140,20 @@
             "packageReferences": {
                 "Pulumi": "3.*"
             },
-            "rootNamespace": "Pulumiverse"
+            "rootNamespace": "Aaronfriel"
         },
         "go": {
             "generateResourceContainerTypes": true,
-            "importBasePath": "github.com/pulumiverse/pulumi-concourse/sdk/go/concourse"
+            "importBasePath": "github.com/aaronfriel/pulumi-concourse/sdk/go/concourse"
         },
         "nodejs": {
             "dependencies": {
                 "@pulumi/pulumi": "^3.0.0"
             },
-            "packageName": "@pulumiverse/concourse"
+            "packageName": "@aaronfriel/concourse"
         },
         "python": {
-            "packageName": "pulumiverse_concourse",
+            "packageName": "aaronfriel_concourse",
             "requires": {
                 "pulumi": ">=3.0.0,<4.0.0"
             }

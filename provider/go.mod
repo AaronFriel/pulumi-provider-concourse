@@ -1,4 +1,4 @@
-module github.com/pulumiverse/pulumi-concourse/provider
+module github.com/aaronfriel/pulumi-concourse/provider
 
 go 1.18
 

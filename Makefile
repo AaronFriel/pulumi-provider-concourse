@@ -2,9 +2,9 @@ PROJECT_NAME := Pulumi Concourse Resource Provider
 
 PACK             := concourse
 PACKDIR          := sdk
-PROJECT          := github.com/pulumiverse/pulumi-concourse
-NODE_MODULE_NAME := @pulumiverse/concourse
-NUGET_PKG_NAME   := Pulumiverse.Concourse
+PROJECT          := github.com/aaronfriel/pulumi-concourse
+NODE_MODULE_NAME := @aaronfriel/concourse
+NUGET_PKG_NAME   := Aaronfriel.Concourse
 
 PROVIDER        := pulumi-resource-${PACK}
 CODEGEN         := pulumi-gen-${PACK}
